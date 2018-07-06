@@ -90,6 +90,9 @@ var path = require('path');
 const hostname = '127.0.0.1';
 const port = 3000;
 
+
+//transforme le répertoire racine (__dirname) est un repertoire de ressources 
+// i-e les chemins vers les fichiers js et css y seront relatifs
 app.use(express.static(__dirname));
 
 // viewed at http://localhost:8080
